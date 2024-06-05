@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Elections Results Auto-Refresh",
+  "version": "1.0",
+  "description": "Automatically refreshes the results.elections.org.za page to get updates.",
+  "permissions": ["activeTab", "tabs", "alarms"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  }
+}
